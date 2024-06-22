@@ -1,0 +1,45 @@
+﻿<Window x:Class="Proyect.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Proyect"
+        mc:Ignorable="d"
+        Title="MainWindow" MinHeight="462" MinWidth="673" MaxHeight="462"  MaxWidth="673" Background="White">
+    <Grid>
+
+        <Image HorizontalAlignment="Left" Height="38" VerticalAlignment="Top" Width="82"  Source="C:\Users\Ильнур Ибатуллин\Downloads\farmlendLogo.png" Stretch="Fill" Margin="10,10,0,0"/>
+        <Button Content="Каталог" x:Name="guestCatalog" HorizontalAlignment="Left" Margin="555,7,0,0" VerticalAlignment="Top" Background="#FF00A052" BorderBrush="White" Foreground="White" Width="95"  Height="36" Click="guestCatalog_Click">
+
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="9"/>
+                </Style>
+            </Button.Resources>
+
+        </Button>
+        <Button x:Name="AuthBtn" Content="Авторизация" HorizontalAlignment="Left" Margin="513,48,0,0" VerticalAlignment="Top" Background="#FF00A052" BorderBrush="White" Foreground="White" Width="137" RenderTransformOrigin="0.289,0.503" Click="AuthBtn_Click" Height="33">
+
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="9"/>
+                </Style>
+            </Button.Resources>
+
+        </Button>
+        <Image HorizontalAlignment="Left" Height="100" Margin="224,118,0,0" VerticalAlignment="Top" Width="218" Source="C:\Users\Ильнур Ибатуллин\Downloads\advert1.jpg" Stretch="Fill"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="451,118,0,0" VerticalAlignment="Top" Width="218" Source="C:\Users\Ильнур Ибатуллин\Downloads\advert2.jpg" Stretch="Fill"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="0,118,0,0" VerticalAlignment="Top" Width="218" Source="C:\Users\Ильнур Ибатуллин\Downloads\advert3.jpg" Stretch="Fill"/>
+        <Label Content="Аптечная сеть «Фармленд» начала свою деятельность в ноябре 1997 года с открытия небольшой аптеки в &#10; 
+               городе Мелеузе Республики Башкортостан. Спустя несколько месяцев открылись аптеки в селе &#10; 
+               Кармаскалы и городе Бирске, а в следующем году первая аптека сети «Фармленд» появилась и в столице &#10;
+               республики - городе Уфе. В 2012 году компания вышла за пределы Башкортостана: аптеки «Фармленд» &#10;
+               появляются в Тюмени, Ижевске, Оренбургской области, Республике Татарстан и Челябинской области. &#10;
+               Затем начинается освоение Свердловской и Самарской областей. В 2021 году первые аптеки «Фармленд» &#10;
+               появляются в Москве и Московской области.&#10;
+               
+               &#10;
+
+В настоящее время аптечная сеть «Фармленд» входит в десятку крупнейших аптечных сетей России: 2000&#10; аптек в 10 субъектах страны, сплоченный коллектив из 9000 сотрудников и более 3 млрд. руб. налогов,&#10; перечисленных в бюджет страны за 2022 год." HorizontalAlignment="Center" Margin="0,243,0,0" VerticalAlignment="Top" Width="653" Height="193"/>
+    </Grid>
+</Window>
